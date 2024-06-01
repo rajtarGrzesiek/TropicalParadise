@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tropical Paradise</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/7dc32a0c06.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <nav class="navigation">
+        <button class="burger-btn">
+            <div class="burger-btn__box">
+                <div class="burger-btn__bars"></div>
+            </div>
+        </button>
+        <div class="nav nav__items">
+            <a href="#islands" onclick="deleteAnimation()" class="nav__item">Wyspy</a>
+            <a href="#offers" onclick="deleteAnimation()" class="nav__item">Oferty</a>
+            <a href="#reviews" onclick="deleteAnimation()" class="nav__item">Opinie</a>
+            <a href="#contact" onclick="deleteAnimation()" class="nav__item">Kontak</a>
+        </div>
+    </nav>
+
+    <header class="header section">
+        <h1 class="header__heading">Tropical Paradise</h1>
+        <p class="header__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <a href="offers" id="" class="header__btn btn-special-animation">Poznaj ofertę</a>
+        <div class="white-block white-block-left"></div>
+    </header>
+
+    <main class="main">
+        <section class="dreams section white-section section-padding">
+            <div class="wrapper">
+                <h2 class="section-heading">Spełniaj marzenia</h2>
+                <div class="dreams__box">
+                    <div class="dreams__box-img">
+                        <img src="./img/paradise_small.jpg" alt="Domki nad oceanem" class="dreams__img">
+                    </div>
+                    <div class="dreams__box-text">
+                        <h3 class="dreams__title">Wymarzone wakacje</h3>
+                        <p class="dreams__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+                            aliquam, facilis quo repellendus nostrum sunt non odio ducimus asperiores, quas esse
+                            quisquam eius deleniti error explicabo earum ullam, pariatur cum!</p>
+                    </div>
+                </div>
+                <div class="dreams__box">
+                    <div class="dreams__box-img dreams__box-img--right">
+                        <img src="./img/bora_bora_small.jpg" alt="Domki nad oceanem na tle gór" class="dreams__img">
+                    </div>
+                    <div class="dreams__box-text dreams__box-text--right">
+                        <h3 class="dreams__title">Niezpomniane przygody</h3>
+                        <p class="dreams__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+                            aliquam, facilis quo repellendus nostrum sunt non odio ducimus asperiores, quas esse
+                            quisquam eius deleniti error explicabo earum ullam, pariatur cum!</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="hero-img section">
+            <div class="white-block white-block-left"></div>
+            <div class="white-block white-block-right"></div>
+            <p class="hero-img__title">Tropical Paradise</p>
+            <hr>
+            <div class="hero-img__text">Jedyne takie miejsce na ziemi</div>
+            <hr>
+        </section>
+
+        <section class="islands section section-padding white-section" id="islands">
+            <div class="wrapper">
+                <h2 class="section-heading">Polecane wysypy</h2>
+                <div class="islands__cards">
+
+
+                    <div class="islands__card" onclick="void(0)">
+
+                        <div class="islands__card-img islands__card-img--first">
+                            <h3 class="islands__card-img-title">Wyspa Tiki Taki</h3>
+                            <p class="islands__card-img-info"><i class="fas fa-angle-double-right"></i> Więcej
+                                informacji
+                            </p>
+                        </div>
+
+                        <div class="islands__card-info">
+                            <h3 class="islands__card-info-title">Wyspa Tiki Taki</h3>
+                            <ul class="islands__card-info-list">
+                                <li class="islands__card-info-list-item">Piękna okolica</li>
+                                <li class="islands__card-info-list-item">Ciepła woda</li>
+                                <li class="islands__card-info-list-item">Czyste plaże</li>
+                                <li class="islands__card-info-list-item">Ekskluzywny bar</li>
+                                <li class="islands__card-info-list-item">Wysokie palmy</li>
+                            </ul>
+
+                            <button class="islands__card-info-btn btn-special-animation">Wybierz</button>
+                        </div>
+                    </div>
+                    <div class="islands__card" onclick="void(0)">
+
+                        <div class="islands__card-img islands__card-img--second">
+                            <h3 class="islands__card-img-title">Wyspa Tiki Taki</h3>
+                            <p class="islands__card-img-info"><i class="fas fa-angle-double-right"></i> Więcej
+                                informacji
+                            </p>
+                        </div>
+
+                        <div class="islands__card-info">
+                            <h3 class="islands__card-info-title">Wyspa Tiki Taki</h3>
+                            <ul class="islands__card-info-list">
+                                <li class="islands__card-info-list-item">Piękna okolica</li>
+                                <li class="islands__card-info-list-item">Ciepła woda</li>
+                                <li class="islands__card-info-list-item">Czyste plaże</li>
+                                <li class="islands__card-info-list-item">Ekskluzywny bar</li>
+                                <li class="islands__card-info-list-item">Wysokie palmy</li>
+                            </ul>
+
+                            <button class="islands__card-info-btn btn-special-animation">Wybierz</button>
+                        </div>
+                    </div>
+                    <div class="islands__card" onclick="void(0)">
+
+                        <div class="islands__card-img islands__card-img--third">
+                            <h3 class="islands__card-img-title">Wyspa Toca Toca</h3>
+                            <p class="islands__card-img-info"><i class="fas fa-angle-double-right"></i> Więcej
+                                informacji
+                            </p>
+                        </div>
+
+                        <div class="islands__card-info">
+                            <h3 class="islands__card-info-title">Wyspa Nobu</h3>
+                            <ul class="islands__card-info-list">
+                                <li class="islands__card-info-list-item">Piękna okolica</li>
+                                <li class="islands__card-info-list-item">Ciepła woda</li>
+                                <li class="islands__card-info-list-item">Czyste plaże</li>
+                                <li class="islands__card-info-list-item">Ekskluzywny bar</li>
+                                <li class="islands__card-info-list-item">Wysokie palmy</li>
+                            </ul>
+
+                            <button class="islands__card-info-btn btn-special-animation">Wybierz</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="offers section section-padding" id="offers">
+            <div class="white-block white-block-right"></div>
+            <div class="white-block white-block-left"></div>
+            <h2 class="section-heading">Oferty</h2>
+            <div class="wrapper">
+                <div class="offers_box">
+
+
+                    <div class="offers__option">
+                        <img src="./img/bubbles_small.jpg" alt="Impreza z dziećmi nad wodą" class="offers__option-img">
+                        <div class="offers__option-info">
+                            <h3 class="offers__option-heading">Wyjazd z dziećmi</h3>
+
+                            <p class="offers__option-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Blanditiis itaque, neque voluptatum ut delectus laborum soluta ducimus obcaecati amet
+                                voluptatem!</p>
+                            <p class="offers__option-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="offers__option-btn btn-special-animation">Wybierz</button>
+                        </div>
+                    </div>
+                    <div class="offers__option">
+                        <img src="./img/campfire_small.jpg" alt="Ognisko na plaży"
+                            class="offers__option-img offers__option-img--right">
+                        <div class="offers__option-info">
+                            <h3 class="offers__option-heading">Wypad z kumplami</h3>
+
+                            <p class="offers__option-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Blanditiis itaque, neque voluptatum ut delectus laborum soluta ducimus obcaecati amet
+                                voluptatem!</p>
+                            <p class="offers__option-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="offers__option-btn btn-special-animation">Wybierz</button>
+                        </div>
+                    </div>
+                    <div class="offers__option">
+                        <img src="./img/beach_teable_small.jpg" alt="Stół z palet na plaży " class="offers__option-img">
+                        <div class="offers__option-info">
+                            <h3 class="offers__option-heading">Tylko we dwoje</h3>
+
+                            <p class="offers__option-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Blanditiis itaque, neque voluptatum ut delectus laborum soluta ducimus obcaecati amet
+                                voluptatem!</p>
+                            <p class="offers__option-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="offers__option-btn btn-special-animation">Wybierz</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <section class="reviews section white-section section-padding" id="reviews">
+            <h2 class="section-heading">Opinie</h2>
+            <div class="wrapper">
+
+                <div class="reviews__boxes">
+
+
+                    <div class="reviews__box">
+                        <div class="reviews__box-img">
+                            <img src="./img/attractive_woman_small.jpg" alt="Anna Nowak">
+                        </div>
+                        <div class="reviews__box-info">
+                            <div class="reviews__box-quote"> <i class="fas fa-quote-right"></i> </div>
+                            <p class="reviews__box-text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa molestiae incidunt
+                                consequuntur quibusdam iusto natus minima eos in! Nesciunt, eius!
+                            </p>
+                            <strong>Anna Nowak</strong>
+                        </div>
+                    </div>
+                    <div class="reviews__box">
+                        <div class="reviews__box-img">
+                            <img src="./img/happy_man.jpg" alt="Jan Kowalski">
+                        </div>
+                        <div class="reviews__box-info">
+                            <div class="reviews__box-quote"> <i class="fas fa-quote-right"></i> </div>
+                            <p class="reviews__box-text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa molestiae incidunt
+                                consequuntur quibusdam iusto natus minima eos in! Nesciunt, eius!
+                            </p>
+                            <strong>Jan Kowalski</strong>
+                        </div>
+                    </div>
+                    <div class="reviews__box">
+                        <div class="reviews__box-img">
+                            <img src="./img/woman_blond.jpg" alt="Maria Wiśniewska">
+                        </div>
+                        <div class="reviews__box-info">
+                            <div class="reviews__box-quote"> <i class="fas fa-quote-right"></i> </div>
+                            <p class="reviews__box-text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa molestiae incidunt
+                                consequuntur quibusdam iusto natus minima eos in! Nesciunt, eius!
+                            </p>
+                            <strong>Maria Wiśniewska</strong>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="contact section section-padding white-section" id="contact"></section>
+        <div class="white-block white-block-left"></div>
+        <div class="white-block white-block-right"></div>
+
+        <h2 class="section-heading">Kontakt</h2>
+
+        <div class="wrapper">
+
+            <form action="" class="contact__form">
+                <div class="contact__form-top">
+                    <label for="name" class="contact__form-label">Imię i nazwisko</label>
+                    <input type="text" class="contact__form-input" id="name">
+
+                    <label for="email" class="contact__form-label">Adres e-mail</label>
+                    <input type="text" class="contact__form-input" id="email">
+                </div>
+
+                <label for="msg" class="contact__form-label">Wiadomość:</label>
+                <textarea id="msg" class="contact__form-textarea"></textarea>
+
+                <button type="submit" class="contact__form-btn btn-special-animation">Wyślij</button>
+
+            </form>
+
+        </div>
+    </main>
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/slick.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
