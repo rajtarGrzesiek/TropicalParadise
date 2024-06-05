@@ -481,7 +481,7 @@ body {
 	}
 
 	&__box-desktop {
-		// display: none;
+		display: none;
 	}
 
 	&__box-title {
@@ -508,6 +508,11 @@ body {
 		&:hover {
 			color: $light-white;
 		}
+	}
+
+	&__bottom-text {
+		padding: 2em;
+		text-align: center;
 	}
 }
 
