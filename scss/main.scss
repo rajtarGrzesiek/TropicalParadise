@@ -18,12 +18,6 @@ body {
 	font-size: 1.6rem;
 }
 
-.black-bars-color::after,
-.black-bars-color::before,
-.black-bars-color {
-	background-color: $dark;
-}
-
 // NAV
 .burger-btn {
 	position: fixed;
@@ -130,6 +124,12 @@ body {
 	animation: navItemsAnimation 1s;
 	animation-delay: 0.3s;
 	animation-fill-mode: both;
+}
+
+.black-bars-color::after,
+.black-bars-color::before,
+.black-bars-color {
+	background-color: $dark;
 }
 
 // HEADER
